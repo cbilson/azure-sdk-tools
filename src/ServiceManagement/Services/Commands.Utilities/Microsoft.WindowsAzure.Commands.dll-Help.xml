@@ -1807,7 +1807,7 @@ GalleryEndpoint               :
         <dev:code>C:\PS&gt;Get-AzureSubscription ???SubscriptionName MyProdSubscription
 </dev:code>
         <dev:remarks>
-          <maml:para>This command gets only the "MyProdSubsciption" subscription.</maml:para>
+          <maml:para>This command gets only the "MyProdSubscription" subscription.</maml:para>
         </dev:remarks>
         <command:commandLines>
           <command:commandLine>
@@ -2878,8 +2878,8 @@ Are you sure you want to perform this action?
           </maml:para>
         </maml:introduction>
         <dev:code>PS C:\&gt;$thumbprint = &lt;Certificate Thumbprint&gt;
-PS C:\&gt;$myCert = Get-Item cert:\\CurrentUser\My\$thumbprint 
-PS C:\&gt;Set-AzureSubscription -SubscriptionName ContosotTest -Certificate $myCert -SubscriptionID 12345
+PS C:\&gt;$myCert = Get-Item cert:\\CurrentUser\My\$thumbprint
+PS C:\&gt;Set-AzureSubscription -SubscriptionName ContosoTest -Certificate $myCert -SubscriptionID 12345
 
 </dev:code>
         <dev:remarks>
@@ -3455,7 +3455,7 @@ C:\PS&gt; Set-AzureSubscription ???SubscriptionName ContosoEngineering -Certific
         </maml:introduction>
         <dev:code>Add-AzureNodeWebRole</dev:code>
         <dev:remarks>
-          <maml:para>Adds a Windows Azure web role with the default configuration (Name = "Webole1", Instances = 1)</maml:para>
+          <maml:para>Adds a Windows Azure web role with the default configuration (Name = "WebRole1", Instances = 1)</maml:para>
           <maml:para>
           </maml:para>
           <maml:para>
@@ -3855,7 +3855,7 @@ C:\PS&gt; Set-AzureSubscription ???SubscriptionName ContosoEngineering -Certific
         </maml:introduction>
         <dev:code>Add-AzurePHPWebRole</dev:code>
         <dev:remarks>
-          <maml:para>Adds a Windows Azure web role with the default configuration (Name = "Webole1", Instances = 1)</maml:para>
+          <maml:para>Adds a Windows Azure web role with the default configuration (Name = "WebRole1", Instances = 1)</maml:para>
           <maml:para>
           </maml:para>
           <maml:para>
@@ -4214,7 +4214,7 @@ C:\PS&gt; Set-AzureSubscription ???SubscriptionName ContosoEngineering -Certific
         <maml:uri />
       </maml:navigationLink>
       <maml:navigationLink>
-        <maml:linkText>Publish-AzureServicProjecte</maml:linkText>
+        <maml:linkText>Publish-AzureServiceProject</maml:linkText>
         <maml:uri />
       </maml:navigationLink>
     </maml:relatedLinks>
@@ -5412,8 +5412,8 @@ C:\PS&gt; Set-AzureSubscription ???SubscriptionName ContosoEngineering -Certific
         <dev:code>Set-AzureServiceProject -Location "North Central US" -Slot Production -Storage myStorageAccount -Subscription myAzureSubscription</dev:code>
         <dev:remarks>
           <maml:para>
-            Sets the deployment location for the service to the North Central US region. Sets the deloyment slot to Production.
-            Sets the storage account ahat will be used to stage the service definition to 'myStorageAccount'.  Sets the subscription
+            Sets the deployment location for the service to the North Central US region. Sets the deployment slot to Production.
+            Sets the storage account that will be used to stage the service definition to 'myStorageAccount'.  Sets the subscription
             that will host the service to 'mySubscription'.  Whenever the service is published to the cloud, it will be hosted in a
             data center in the North Central US region, it will update the deployment slot, and it will use the specified subscription
             and storage account.
@@ -6616,7 +6616,7 @@ C:\PS&gt; Set-AzureSubscription ???SubscriptionName ContosoEngineering -Certific
           C:\PS\MyAzureServiceProject&gt;Save-AzureServiceProjectPackage
         </dev:code>
         <dev:remarks>
-          <maml:para>This command Creates *.cspgk for MyAzureServiceProject service project.</maml:para>
+          <maml:para>This command Creates *.cspkg for MyAzureServiceProject service project.</maml:para>
         </dev:remarks>
         <command:commandLines>
           <command:commandLine>
@@ -6764,7 +6764,7 @@ C:\PS&gt; Set-AzureSubscription ???SubscriptionName ContosoEngineering -Certific
         </maml:introduction>
         <dev:code>Add-AzureWebRole</dev:code>
         <dev:remarks>
-          <maml:para>Adds a Windows Azure web role with the default configuration (Name = "Webole1", Instances = 1)</maml:para>
+          <maml:para>Adds a Windows Azure web role with the default configuration (Name = "WebRole1", Instances = 1)</maml:para>
           <maml:para>
           </maml:para>
           <maml:para>
@@ -7089,7 +7089,7 @@ C:\PS&gt; Set-AzureSubscription ???SubscriptionName ContosoEngineering -Certific
           <maml:para>C:\PS&gt;</maml:para>
           C:\PS&gt;
         </maml:introduction>
-        <dev:code>Add-AzureWorkerRole MyWorkerRole -TemplateFoldr .\MyWorkerRoleTemplate</dev:code>
+        <dev:code>Add-AzureWorkerRole MyWorkerRole -TemplateFolder .\MyWorkerRoleTemplate</dev:code>
         <dev:remarks>
           <maml:para>Adds scaffolding for a new worker role named "MyWorkerRole" to the current application, with custom scaffolding .\MyWorkerRoleTemplate</maml:para>
           <maml:para>
@@ -8664,7 +8664,7 @@ C:\PS&gt; Set-AzureSubscription ???SubscriptionName ContosoEngineering -Certific
       </command:example>
       <command:example>
         <maml:title>
-          -------------- Get authorization rule by permisssion --------------
+          -------------- Get authorization rule by permission --------------
         </maml:title>
         <maml:introduction>
           <maml:para>C:\PS&gt;</maml:para>
@@ -8910,7 +8910,7 @@ C:\PS&gt; Set-AzureSubscription ???SubscriptionName ContosoEngineering -Certific
       </command:example>
       <command:example>
         <maml:title>
-          --------------  Get MyAddOn from the purcahsed add-on instance in current subscription --------------
+          --------------  Get MyAddOn from the purchased add-on instance in current subscription --------------
         </maml:title>
         <maml:introduction>
           <maml:para>C:\PS&gt;</maml:para>
@@ -10000,7 +10000,7 @@ C:\PS&gt; Set-AzureSubscription ???SubscriptionName ContosoEngineering -Certific
         <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="true (ByPropertyName)" position="named">
           <maml:name>GitHub</maml:name>
           <maml:description>
-            <maml:para>If enabled, link this website with an existing Github repository.  Commits to the Giuthub repository will be pushed to the website in Windows Azure.</maml:para>
+            <maml:para>If enabled, link this website with an existing Github repository.  Commits to the Github repository will be pushed to the website in Windows Azure.</maml:para>
           </maml:description>
         </command:parameter>
         <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="true (ByPropertyName)" position="named">
@@ -10088,7 +10088,7 @@ C:\PS&gt; Set-AzureSubscription ???SubscriptionName ContosoEngineering -Certific
       <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="true (ByPropertyName)" position="named">
         <maml:name>GitHub</maml:name>
         <maml:description>
-          <maml:para>If enabled, link this website with an existing Github repository.  Commits to the Giuthub repository will be pushed to the website in Windows Azure.</maml:para>
+          <maml:para>If enabled, link this website with an existing Github repository.  Commits to the Github repository will be pushed to the website in Windows Azure.</maml:para>
         </maml:description>
         <dev:type>
           <maml:name>SwitchParameter</maml:name>
@@ -10197,7 +10197,7 @@ C:\PS&gt; Set-AzureSubscription ???SubscriptionName ContosoEngineering -Certific
         </maml:introduction>
         <dev:code>New-AzureWebsite mySite -Git</dev:code>
         <dev:remarks>
-          <maml:para>Create a new azure website and a local git repository to use for deploying fiels to the new website</maml:para>
+          <maml:para>Create a new azure website and a local git repository to use for deploying files to the new website</maml:para>
           <maml:para>
           </maml:para>
           <maml:para>
@@ -11231,7 +11231,7 @@ C:\PS&gt; Set-AzureSubscription ???SubscriptionName ContosoEngineering -Certific
         </maml:introduction>
         <dev:code>Save-AzureWebsiteLogs -Name mySite -Output .\logs.zip</dev:code>
         <dev:remarks>
-          <maml:para>Download runtime and deployment logs for webaite 'mySite' to the file 'logs.zip' in the current directory</maml:para>
+          <maml:para>Download runtime and deployment logs for website 'mySite' to the file 'logs.zip' in the current directory</maml:para>
           <maml:para>
           </maml:para>
           <maml:para>
@@ -15350,7 +15350,7 @@ C:\PS&gt; Set-AzureSubscription ???SubscriptionName ContosoEngineering -Certific
 $hiveConfigvalues = new-object 'Microsoft.WindowsAzure.Management.HDInsight.Cmdlet.DataObjects.AzureHDInsightHiveConfiguration'
 $hiveConfigvalues.Configuration = @{ ???hive.exec.compress.output???=???true??? }
 $hiveConfigvalues.AdditionalLibraries = new-object 'Microsoft.WindowsAzure.Management.HDInsight.Cmdlet.DataObjects.AzureHDInsightDefaultStorageAccount'
-$hiveConfigvalues.AdditionalLibraries.StorageAccountName = "yourstorageaccount.blob.core.windows.net" 
+$hiveConfigvalues.AdditionalLibraries.StorageAccountName = "yourstorageaccount.blob.core.windows.net"
 $hiveConfigvalues.AdditionalLibraries.StorageAccountKey = (Get-AzureStorageKey yourstorageaccount).Primary
 $hiveConfigvalues.AdditionalLibraries.StorageContainerName = "yoursharedlibcontainer"
 
@@ -15759,7 +15759,7 @@ $oozieCreds = Get-Credential
 $hiveCreds = Get-Credential
 New-AzureHDInsightClusterConfig -ClusterSizeInNodes 4 `
     | Set-AzureHDInsightDefaultStorage -StorageAccountName yourblobstorage.blob.core.windows.net
-        -StorageAccountKey $key1 -StorageContainerName &amp;quot;yourcontainer&amp;quot; 
+        -StorageAccountKey $key1 -StorageContainerName &amp;quot;yourcontainer&amp;quot;
     | Add-AzureHDInsightStorage -StorageAccountName yoursecondbobstorage.blob.core.windows.net -StorageAccountKey $key2 `
     | Add-AzureHDInsightMetastore -SqlAzureServerName &amp;quot;yoursqlserver.database.windows.net&amp;quot; -DatabaseName &amp;quot;yourOozieDatabaseName&amp;quot; -Credential $oozieCreds -MetastoreType OozieMetastore `
     | Add-AzureHDInsightMetastore -SqlAzureServerName &amp;quot;yoursqlserver.database.widows.net&amp;quot; -DatabaseName &amp;quot;yourHiveDatabaseName&amp;quot; -Credential $hiveCreds -MetastoreType HiveMetastore  `
@@ -16318,13 +16318,13 @@ PS C:\&gt;
         <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="named" aliases="">
           <maml:name>StandardOutput</maml:name>
           <maml:description>
-            <maml:para>Switch used to retrieve the SdtOut output of the job.</maml:para>
+            <maml:para>Switch used to retrieve the StdOut output of the job.</maml:para>
           </maml:description>
         </command:parameter>
         <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="named" aliases="LogsDir">
           <maml:name>TaskLogsDirectory</maml:name>
           <maml:description>
-            <maml:para>When DownloadTaksLogs switch is used this parameter specifies destination local folder where tasks logs will be downloaded.</maml:para>
+            <maml:para>When DownloadTaskLogs switch is used this parameter specifies destination local folder where tasks logs will be downloaded.</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
         </command:parameter>
@@ -16466,7 +16466,7 @@ PS C:\&gt;
       <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="named" aliases="LogsDir">
         <maml:name>TaskLogsDirectory</maml:name>
         <maml:description>
-          <maml:para>When DownloadTaksLogs switch is used this parameter specifies destination local folder where tasks logs will be downloaded.</maml:para>
+          <maml:para>When DownloadTaskLogs switch is used this parameter specifies destination local folder where tasks logs will be downloaded.</maml:para>
         </maml:description>
         <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
         <dev:type>
@@ -16739,8 +16739,8 @@ PS C:\&gt;
           <maml:para>
           </maml:para>
         </maml:introduction>
-        <dev:code>PS C:\&gt;$SubName = Get-AzureSubscription -Current | %{ $_.SubscriptionName } 
-Get-AzureHDInsightProperties -Subscription $SubName 
+        <dev:code>PS C:\&gt;$SubName = Get-AzureSubscription -Current | %{ $_.SubscriptionName }
+Get-AzureHDInsightProperties -Subscription $SubName
 
 </dev:code>
         <dev:remarks>
@@ -17539,7 +17539,7 @@ $oozieCreds = Get-Credential
 $hiveCreds = Get-Credential
 New-AzureHDInsightClusterConfig -ClusterSizeInNodes 4 `
     | Set-AzureHDInsightDefaultStorage -StorageAccountName yourblobstorage.blob.core.windows.net
-        -StorageAccountKey $key1 -StorageContainerName &amp;quot;yourcontainer&amp;quot; 
+        -StorageAccountKey $key1 -StorageContainerName &amp;quot;yourcontainer&amp;quot;
     | Add-AzureHDInsightStorage -StorageAccountName yoursecondbobstorage.blob.core.windows.net -StorageAccountKey $key2 `
     | Add-AzureHDInsightMetastore -SqlAzureServerName &amp;quot;yoursqlserver.database.windows.net&amp;quot; -DatabaseName &amp;quot;yourOozieDatabaseName&amp;quot; -Credential $oozieCreds -MetastoreType OozieMetastore `
     | Add-AzureHDInsightMetastore -SqlAzureServerName &amp;quot;yoursqlserver.database.widows.net&amp;quot; -DatabaseName &amp;quot;yourHiveDatabaseName&amp;quot; -Credential $hiveCreds -MetastoreType HiveMetastore  `
@@ -18264,7 +18264,7 @@ $QueryString =  "LOGS = LOAD 'wasb:///example/data/sample.log';" +
                 "GROUPEDLEVELS = GROUP FILTEREDLEVELS by LOGLEVEL;" +
                 "FREQUENCIES = foreach GROUPEDLEVELS generate group as LOGLEVEL, COUNT(FILTEREDLEVELS.LOGLEVEL) as COUNT;" +
                 "RESULT = order FREQUENCIES by COUNT desc;" +
-                "DUMP RESULT;" 
+                "DUMP RESULT;"
 
 $pigJobDefinition = New-AzureHDInsightPigJobDefinition -Query $QueryString
 
@@ -19216,7 +19216,7 @@ $oozieCreds = Get-Credential
 $hiveCreds = Get-Credential
 New-AzureHDInsightClusterConfig -ClusterSizeInNodes 4 `
     | Set-AzureHDInsightDefaultStorage -StorageAccountName yourblobstorage.blob.core.windows.net
-        -StorageAccountKey $key1 -StorageContainerName &amp;quot;yourcontainer&amp;quot; 
+        -StorageAccountKey $key1 -StorageContainerName &amp;quot;yourcontainer&amp;quot;
     | Add-AzureHDInsightStorage -StorageAccountName yoursecondbobstorage.blob.core.windows.net -StorageAccountKey $key2 `
     | Add-AzureHDInsightMetastore -SqlAzureServerName &amp;quot;yoursqlserver.database.windows.net&amp;quot; -DatabaseName &amp;quot;yourOozieDatabaseName&amp;quot; -Credential $oozieCreds -MetastoreType OozieMetastore `
     | Add-AzureHDInsightMetastore -SqlAzureServerName &amp;quot;yoursqlserver.database.widows.net&amp;quot; -DatabaseName &amp;quot;yourHiveDatabaseName&amp;quot; -Credential $hiveCreds -MetastoreType HiveMetastore  `
@@ -19538,7 +19538,7 @@ New-AzureHDInsightClusterConfig -ClusterSizeInNodes 4 `
         <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="2" aliases="Sub">
           <maml:name>Subscription</maml:name>
           <maml:description>
-            <maml:para>The subscription that contains the HDInsight cluster. 
+            <maml:para>The subscription that contains the HDInsight cluster.
 </maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
@@ -19666,7 +19666,7 @@ New-AzureHDInsightClusterConfig -ClusterSizeInNodes 4 `
       <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="false" position="2" aliases="Sub">
         <maml:name>Subscription</maml:name>
         <maml:description>
-          <maml:para>The subscription that contains the HDInsight cluster. 
+          <maml:para>The subscription that contains the HDInsight cluster.
 </maml:para>
         </maml:description>
         <command:parameterValue required="true" variableLength="false">String</command:parameterValue>
@@ -20522,7 +20522,7 @@ $wordCountJob `
         <dev:remarks>
           <maml:para>Description</maml:para>
           <maml:para>-----------</maml:para>
-          <maml:para>Publish a WebDeploy Pacakge .zip file to a Windows Azure Web Site using WebDeploy.</maml:para>
+          <maml:para>Publish a WebDeploy Package .zip file to a Windows Azure Web Site using WebDeploy.</maml:para>
           <maml:para>
           </maml:para>
           <maml:para>
@@ -20551,7 +20551,7 @@ $wordCountJob `
         <dev:remarks>
           <maml:para>Description</maml:para>
           <maml:para>-----------</maml:para>
-          <maml:para>Publish a WebDeploy Pacakge folder to a Windows Azure Web Site using WebDeploy.</maml:para>
+          <maml:para>Publish a WebDeploy Package folder to a Windows Azure Web Site using WebDeploy.</maml:para>
           <maml:para>
           </maml:para>
           <maml:para>
@@ -21573,7 +21573,7 @@ $wordCountJob `
         <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="true (ByPropertyName)">
           <maml:name>ErrorActionQueueMessageBody</maml:name>
           <maml:description>
-            <maml:para>The body for storage job acitons.</maml:para>
+            <maml:para>The body for storage job actions.</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">string</command:parameterValue>
         </command:parameter>
@@ -21828,7 +21828,7 @@ $wordCountJob `
         <command:parameter required="false" variableLength="false" globbing="false" pipelineInput="true (ByPropertyName)">
           <maml:name>ErrorActionQueueMessageBody</maml:name>
           <maml:description>
-            <maml:para>The body for storage job acitons.</maml:para>
+            <maml:para>The body for storage job actions.</maml:para>
           </maml:description>
           <command:parameterValue required="true" variableLength="false">string</command:parameterValue>
         </command:parameter>
@@ -23726,7 +23726,7 @@ PS C:\&gt; New-WAPackQuickVM -Name "VirtualMachine023" -Template $TemplateId -VM
           <maml:para>
           </maml:para>
         </maml:introduction>
-        <dev:code>PS C:\&gt;$Credentials = Get-Credential 
+        <dev:code>PS C:\&gt;$Credentials = Get-Credential
 PS C:\&gt; $Template = Get-WAPackVMTemplate -Name "ContosoTemplate04"
 PS C:\&gt; New-WAPackVM -Name "ContosoV023" -Template $Template -VMCredential $Credentials -Windows
 </dev:code>
@@ -23747,7 +23747,7 @@ PS C:\&gt; New-WAPackVM -Name "ContosoV023" -Template $Template -VMCredential $C
           <maml:para>
           </maml:para>
         </maml:introduction>
-        <dev:code>PS C:\&gt;$Credentials = Get-Credential 
+        <dev:code>PS C:\&gt;$Credentials = Get-Credential
 PS C:\&gt; $Template = Get-WAPackVMTemplate -Name "ContosoTemplate19"
 PS C:\&gt; New-WAPackVM -Linux -Name "ContosoV028" -Template $Template -VMCredential $Credentials
 </dev:code>
@@ -25851,7 +25851,7 @@ Invoke-Hive "select * from hivesampletable limit 10"
         <command:parameter required="true" variableLength="false" globbing="false" pipelineInput="false" position="named" aliases="OutputType">
           <maml:name>Stream</maml:name>
           <maml:description>
-            <maml:para>Specifies the type of output. Valid values are: 
+            <maml:para>Specifies the type of output. Valid values are:
 
 -- Any
 -- Debug
@@ -25905,7 +25905,7 @@ Invoke-Hive "select * from hivesampletable limit 10"
       <command:parameter required="true" variableLength="false" globbing="false" pipelineInput="false" position="named" aliases="OutputType">
         <maml:name>Stream</maml:name>
         <maml:description>
-          <maml:para>Specifies the type of output. Valid values are: 
+          <maml:para>Specifies the type of output. Valid values are:
 
 -- Any
 -- Debug
@@ -25962,7 +25962,7 @@ Invoke-Hive "select * from hivesampletable limit 10"
           <maml:para>
           </maml:para>
         </maml:introduction>
-        <dev:code>PS C:\&gt;Get-AzureAutomationJobOutput -AutomationAccountName "Contoso17" -Id 2989b069-24fe-40b9-b3bd-cb7e5eac4b64 -Stream "Any" 
+        <dev:code>PS C:\&gt;Get-AzureAutomationJobOutput -AutomationAccountName "Contoso17" -Id 2989b069-24fe-40b9-b3bd-cb7e5eac4b64 -Stream "Any"
 </dev:code>
         <dev:remarks>
           <maml:para>This command gets all of the output of the job that has the specified ID.</maml:para>
@@ -26165,7 +26165,7 @@ Invoke-Hive "select * from hivesampletable limit 10"
           <maml:para>
           </maml:para>
         </maml:introduction>
-        <dev:code>PS C:\&gt;Get-AzureAutomationRunbook -AutomationAccountName "Contoso17" 
+        <dev:code>PS C:\&gt;Get-AzureAutomationRunbook -AutomationAccountName "Contoso17"
 
 </dev:code>
         <dev:remarks>
@@ -27211,7 +27211,7 @@ PS C:\&gt; New-AzureAutomationSchedule -AutomationAccountName "Contoso17" -Name 
           <maml:para>
           </maml:para>
         </maml:introduction>
-        <dev:code>PS C:\&gt;Publish-AzureAutomationRunbook -AutomationAccountName "Contoso17" -Name "Runbk01" 
+        <dev:code>PS C:\&gt;Publish-AzureAutomationRunbook -AutomationAccountName "Contoso17" -Name "Runbk01"
 </dev:code>
         <dev:remarks>
           <maml:para>This command publishes the runbook named Runbk01 in the Azure Automation account named Contoso17.</maml:para>
@@ -27264,7 +27264,7 @@ PS C:\&gt; New-AzureAutomationSchedule -AutomationAccountName "Contoso17" -Name 
       <dev:version />
     </command:details>
     <maml:description>
-      <maml:para>The Register-AzureAutomationScheduleRunbook cmdlet associates a runbook with a schedule. The runbook starts based on the schedule you specify using the ScheduleName parameter.</maml:para>
+      <maml:para>The Register-AzureAutomationScheduledRunbook cmdlet associates a runbook with a schedule. The runbook starts based on the schedule you specify using the ScheduleName parameter.</maml:para>
     </maml:description>
     <command:syntax>
       <command:syntaxItem>
@@ -27431,7 +27431,7 @@ PS C:\&gt; New-AzureAutomationSchedule -AutomationAccountName "Contoso17" -Name 
           <maml:para>
           </maml:para>
         </maml:introduction>
-        <dev:code>PS C:\&gt;Register-AzureAutomationScheduledRunbook -AutomationAccountName "Contoso17" -Name "Runbk01" -ScheduleName "Sched01" 
+        <dev:code>PS C:\&gt;Register-AzureAutomationScheduledRunbook -AutomationAccountName "Contoso17" -Name "Runbk01" -ScheduleName "Sched01"
 </dev:code>
         <dev:remarks>
           <maml:para>This command associates the runbook named Runbk01 with the schedule named Sched01 in the Azure Automation account named Contoso17.</maml:para>
@@ -28031,7 +28031,7 @@ PS C:\&gt; New-AzureAutomationSchedule -AutomationAccountName "Contoso17" -Name 
           <maml:para>
           </maml:para>
         </maml:introduction>
-        <dev:code>PS C:\&gt;Resume-AzureAutomationJob -AutomationAccountName "Contoso17" -Id 2989b069-24fe-40b9-b3bd-cb7e5eac4b64 
+        <dev:code>PS C:\&gt;Resume-AzureAutomationJob -AutomationAccountName "Contoso17" -Id 2989b069-24fe-40b9-b3bd-cb7e5eac4b64
 </dev:code>
         <dev:remarks>
           <maml:para>This command resumes the job that has the specified ID.</maml:para>
@@ -28903,7 +28903,7 @@ PS C:\&gt; New-AzureAutomationSchedule -AutomationAccountName "Contoso17" -Name 
           <maml:para>
           </maml:para>
         </maml:introduction>
-        <dev:code>PS C:\&gt;Start-AzureAutomationRunbook -AutomationAccountName "Contoso17" -Name "Runbk01" 
+        <dev:code>PS C:\&gt;Start-AzureAutomationRunbook -AutomationAccountName "Contoso17" -Name "Runbk01"
 </dev:code>
         <dev:remarks>
           <maml:para>This command starts a runbook job for the runbook named Runbk01 in the Azure Automation account named Contoso17.</maml:para>
